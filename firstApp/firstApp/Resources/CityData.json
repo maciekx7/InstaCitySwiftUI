@@ -1,0 +1,193 @@
+
+[
+    {
+        "id": 1,
+        "country": "Poland",
+        "name": "Warsaw",
+        "description": "Poland's capital",
+        "state": "Mazowsze",
+        "continent": "Europe",
+        "people": 1777245,
+        "area": 517,
+        "coordinates": {
+            "latitude": 52.237049,
+            "longitude":21.017532
+            
+        },
+        "imageName": "warsaw",
+        "isFavorite": true,
+        "isFeatured": true
+    },
+    {
+        "id": 2,
+        "country": "Germany",
+        "name": "Berlin",
+        "continent": "Europe",
+        "description": "German's capital",
+        "state": "Berlin",
+        "people": 3748345,
+        "area": 891,
+        "coordinates": {
+            "latitude": 52.520008,
+            "longitude":13.404954
+            
+        },
+        "imageName": "berlin",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 3,
+        "country": "France",
+        "name": "Paris",
+        "continent": "Europe",
+        "description": "France's capital",
+        "state": "Ile-de-France",
+        "people": 2243245,
+        "area": 105,
+        "coordinates": {
+            "latitude": 48.864716,
+            "longitude":2.349014
+        },
+        "imageName": "paris",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 4,
+        "country": "UK",
+        "name": "London",
+        "continent": "Europe",
+        "description": "UK's capital",
+        "state": "London City",
+        "people": 8787892,
+        "area": 1572,
+        "coordinates": {
+            "latitude": 51.509865,
+            "longitude": -0.118092
+        },
+        "imageName": "london",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 5,
+        "country": "China",
+        "name": "Beijing",
+        "continent": "Asia",
+        "description": "Chinas's capital",
+        "state": "Bejing",
+        "people": 21710000,
+        "area": 16411,
+        "coordinates": {
+            "latitude": 39.9075,
+            "longitude": 116.39723
+        },
+        "imageName": "beijing",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 6,
+        "country": "USA",
+        "name": "Los Angeles",
+        "continent": "America",
+        "description": "California's capital, west coast USA",
+        "state": "California",
+        "people": 3999759,
+        "area": 1302,
+        "coordinates": {
+            "latitude": 34.052235,
+            "longitude": -118.243683
+        },
+        "imageName": "LA",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 7,
+        "country": "Tajland",
+        "name": "Bangkok",
+        "continent": "Asia",
+        "description": "Tajland's capital",
+        "state": "Bangkok's state",
+        "people": 9617000,
+        "area": 1568,
+        "coordinates": {
+            "latitude": 13.736717,
+            "longitude": 100.523186
+        },
+        "imageName": "bangkok",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 8,
+        "country": "Meksyk",
+        "name": "Mexico City",
+        "continent": "America",
+        "description": "Mexico's capital",
+        "state": "Mexico City",
+        "people": 8918653,
+        "area": 1479,
+        "coordinates": {
+            "latitude": 19.432608,
+            "longitude": -99.133209
+        },
+        "imageName": "mexico",
+        "isFavorite": false,
+        "isFeatured": true
+    },
+    {
+        "id": 9,
+        "country": "Finland",
+        "name": "Helsinki",
+        "continent": "Europe",
+        "description": "Finland's capital",
+        "state": "Helsinki state",
+        "people": 631695,
+        "area": 186,
+        "coordinates": {
+            "latitude": 60.192059,
+            "longitude": 24.945831
+        },
+        "imageName": "helsinki",
+        "isFavorite": false,
+        "isFeatured": false
+    },
+    {
+        "id": 10,
+        "country": "Japan",
+        "name": "Tokyo",
+        "continent": "Asia",
+        "description": "Tokyo's capital",
+        "state": "Tokyo gover state",
+        "people": 13942856,
+        "area": 2190,
+        "coordinates": {
+            "latitude": 35.652832,
+            "longitude": 139.839478
+        },
+        "imageName": "tokyo",
+        "isFavorite": false,
+        "isFeatured": false
+    },
+    {
+        "id": 11,
+        "country": "South Corea",
+        "name": "Seul",
+        "continent": "Asia",
+        "description": "South Corea's capital",
+        "state": "Seul gover state",
+        "people": 10124579,
+        "area": 605,
+        "coordinates": {
+            "latitude": 37.532600,
+            "longitude": 127.024612
+        },
+        "imageName": "seul",
+        "isFavorite": false,
+        "isFeatured": false
+    },
+]
+

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823EEC1823808808005DBFA0 /* london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 823EEC1723808807005DBFA0 /* london.jpg */; };
+		824EDC61238036A600B8C878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EDC60238036A600B8C878 /* AppDelegate.swift */; };
+		824EDC63238036A600B8C878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EDC62238036A600B8C878 /* SceneDelegate.swift */; };
+		824EDC65238036A600B8C878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EDC64238036A600B8C878 /* ContentView.swift */; };
+		824EDC67238036AB00B8C878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824EDC66238036AB00B8C878 /* Assets.xcassets */; };
+		824EDC6A238036AB00B8C878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824EDC69238036AB00B8C878 /* Preview Assets.xcassets */; };
+		824EDC6D238036AB00B8C878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824EDC6B238036AB00B8C878 /* LaunchScreen.storyboard */; };
+		824EDC7523803FD700B8C878 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EDC7423803FD700B8C878 /* ImageView.swift */; };
+		824EDC77238041CE00B8C878 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824EDC76238041CE00B8C878 /* MapView.swift */; };
+		8252EDC72381848F00BBB960 /* ContinentsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8252EDC62381848F00BBB960 /* ContinentsHome.swift */; };
+		8252EDC92381868F00BBB960 /* ContinentsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8252EDC82381868F00BBB960 /* ContinentsRow.swift */; };
+		825DC7882382C3E700FA14B6 /* IMAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825DC7872382C3E700FA14B6 /* IMAGE.swift */; };
+		825DC78A2382C7FC00FA14B6 /* tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DC7892382C7FC00FA14B6 /* tokyo.jpg */; };
+		825DC78C2382C86D00FA14B6 /* seul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 825DC78B2382C86C00FA14B6 /* seul.jpg */; };
+		8284D73A2381978500AABEE7 /* LA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8284D7392381978500AABEE7 /* LA.jpg */; };
+		8284D73C23819A2D00AABEE7 /* bangkok.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8284D73B23819A2D00AABEE7 /* bangkok.jpg */; };
+		8284D7402381B8B200AABEE7 /* mexico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8284D73F2381B8B100AABEE7 /* mexico.jpg */; };
+		8284D7422381B98500AABEE7 /* helsinki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8284D7412381B98500AABEE7 /* helsinki.jpg */; };
+		8284D7462381E1BE00AABEE7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284D7452381E1BE00AABEE7 /* Home.swift */; };
+		828EF3B923940A3D00A91D23 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EF3B823940A3D00A91D23 /* SettingsViewModel.swift */; };
+		828EF3BB2394439100A91D23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EF3BA2394439100A91D23 /* ProfileView.swift */; };
+		828EF3BD2394443700A91D23 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828EF3BC2394443700A91D23 /* Profile.swift */; };
+		82B20CF1238099FA00B021D4 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82B20CF0238099FA00B021D4 /* beijing.jpg */; };
+		82B20CF32380A10200B021D4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B20CF22380A10200B021D4 /* UserData.swift */; };
+		82B24353238058B300B7D147 /* TextInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B24352238058B300B7D147 /* TextInfo.swift */; };
+		82D6EDDF23806B15004AA678 /* CityData.json in Resources */ = {isa = PBXBuildFile; fileRef = 82D6EDDE23806B15004AA678 /* CityData.json */; };
+		82D6EDE123806B2E004AA678 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6EDE023806B2E004AA678 /* City.swift */; };
+		82D6EDE323806B38004AA678 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6EDE223806B38004AA678 /* Data.swift */; };
+		82D6EDE523806B56004AA678 /* berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82D6EDE423806B56004AA678 /* berlin.jpg */; };
+		82D6EDE723806B76004AA678 /* warsaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82D6EDE623806B76004AA678 /* warsaw.jpg */; };
+		82D6EDE923806BC1004AA678 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6EDE823806BC1004AA678 /* CityRow.swift */; };
+		82D6EDED2380778B004AA678 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6EDEC2380778B004AA678 /* CityList.swift */; };
+		82D6EDEF23807927004AA678 /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82D6EDEE23807927004AA678 /* paris.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		823EEC1723808807005DBFA0 /* london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london.jpg; sourceTree = "<group>"; };
+		824EDC5D238036A600B8C878 /* InstaCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824EDC60238036A600B8C878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		824EDC62238036A600B8C878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		824EDC64238036A600B8C878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		824EDC66238036AB00B8C878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824EDC69238036AB00B8C878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		824EDC6C238036AB00B8C878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		824EDC6E238036AB00B8C878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824EDC7423803FD700B8C878 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		824EDC76238041CE00B8C878 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8252EDC62381848F00BBB960 /* ContinentsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsHome.swift; sourceTree = "<group>"; };
+		8252EDC82381868F00BBB960 /* ContinentsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsRow.swift; sourceTree = "<group>"; };
+		825DC7872382C3E700FA14B6 /* IMAGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAGE.swift; sourceTree = "<group>"; };
+		825DC7892382C7FC00FA14B6 /* tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyo.jpg; sourceTree = "<group>"; };
+		825DC78B2382C86C00FA14B6 /* seul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seul.jpg; sourceTree = "<group>"; };
+		8284D7392381978500AABEE7 /* LA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LA.jpg; sourceTree = "<group>"; };
+		8284D73B23819A2D00AABEE7 /* bangkok.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bangkok.jpg; sourceTree = "<group>"; };
+		8284D73F2381B8B100AABEE7 /* mexico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mexico.jpg; sourceTree = "<group>"; };
+		8284D7412381B98500AABEE7 /* helsinki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helsinki.jpg; sourceTree = "<group>"; };
+		8284D7452381E1BE00AABEE7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		828D8B942383528D001D94B2 /* firstApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstApp.entitlements; sourceTree = "<group>"; };
+		828EF3B823940A3D00A91D23 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		828EF3BA2394439100A91D23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		828EF3BC2394443700A91D23 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		82B20CF0238099FA00B021D4 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
+		82B20CF22380A10200B021D4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		82B24352238058B300B7D147 /* TextInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInfo.swift; sourceTree = "<group>"; };
+		82D6EDDE23806B15004AA678 /* CityData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CityData.json; sourceTree = "<group>"; };
+		82D6EDE023806B2E004AA678 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		82D6EDE223806B38004AA678 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		82D6EDE423806B56004AA678 /* berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berlin.jpg; sourceTree = "<group>"; };
+		82D6EDE623806B76004AA678 /* warsaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warsaw.jpg; sourceTree = "<group>"; };
+		82D6EDE823806BC1004AA678 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
+		82D6EDEC2380778B004AA678 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
+		82D6EDEE23807927004AA678 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824EDC5A238036A600B8C878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824EDC54238036A600B8C878 = {
+			isa = PBXGroup;
+			children = (
+				824EDC5F238036A600B8C878 /* firstApp */,
+				824EDC5E238036A600B8C878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824EDC5E238036A600B8C878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824EDC5D238036A600B8C878 /* InstaCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824EDC5F238036A600B8C878 /* firstApp */ = {
+			isa = PBXGroup;
+			children = (
+				828D8B942383528D001D94B2 /* firstApp.entitlements */,
+				82D6EDD923806AB2004AA678 /* Models */,
+				82D6EDD823806AA6004AA678 /* Resources */,
+				824EDC60238036A600B8C878 /* AppDelegate.swift */,
+				824EDC62238036A600B8C878 /* SceneDelegate.swift */,
+				8284D7452381E1BE00AABEE7 /* Home.swift */,
+				828EF3BA2394439100A91D23 /* ProfileView.swift */,
+				82DB0CEA2382AF5900977733 /* ListView */,
+				82DB0CEB2382AF6D00977733 /* FeaturedView */,
+				82DB0CEC2382B00600977733 /* OneCityView */,
+				824EDC6B238036AB00B8C878 /* LaunchScreen.storyboard */,
+				824EDC6E238036AB00B8C878 /* Info.plist */,
+				824EDC68238036AB00B8C878 /* Preview Content */,
+			);
+			path = firstApp;
+			sourceTree = "<group>";
+		};
+		824EDC68238036AB00B8C878 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				824EDC66238036AB00B8C878 /* Assets.xcassets */,
+				824EDC69238036AB00B8C878 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82D6EDD823806AA6004AA678 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82D6EDE423806B56004AA678 /* berlin.jpg */,
+				823EEC1723808807005DBFA0 /* london.jpg */,
+				8284D7392381978500AABEE7 /* LA.jpg */,
+				82B20CF0238099FA00B021D4 /* beijing.jpg */,
+				8284D73B23819A2D00AABEE7 /* bangkok.jpg */,
+				8284D7412381B98500AABEE7 /* helsinki.jpg */,
+				825DC78B2382C86C00FA14B6 /* seul.jpg */,
+				8284D73F2381B8B100AABEE7 /* mexico.jpg */,
+				825DC7892382C7FC00FA14B6 /* tokyo.jpg */,
+				82D6EDEE23807927004AA678 /* paris.jpg */,
+				82D6EDE623806B76004AA678 /* warsaw.jpg */,
+				82D6EDDE23806B15004AA678 /* CityData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82D6EDD923806AB2004AA678 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				828EF3BC2394443700A91D23 /* Profile.swift */,
+				82D6EDE023806B2E004AA678 /* City.swift */,
+				828EF3B823940A3D00A91D23 /* SettingsViewModel.swift */,
+				82D6EDE223806B38004AA678 /* Data.swift */,
+				82B20CF22380A10200B021D4 /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82DB0CEA2382AF5900977733 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				82D6EDEC2380778B004AA678 /* CityList.swift */,
+				82D6EDE823806BC1004AA678 /* CityRow.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		82DB0CEB2382AF6D00977733 /* FeaturedView */ = {
+			isa = PBXGroup;
+			children = (
+				8252EDC82381868F00BBB960 /* ContinentsRow.swift */,
+				8252EDC62381848F00BBB960 /* ContinentsHome.swift */,
+			);
+			path = FeaturedView;
+			sourceTree = "<group>";
+		};
+		82DB0CEC2382B00600977733 /* OneCityView */ = {
+			isa = PBXGroup;
+			children = (
+				824EDC7423803FD700B8C878 /* ImageView.swift */,
+				825DC7872382C3E700FA14B6 /* IMAGE.swift */,
+				824EDC76238041CE00B8C878 /* MapView.swift */,
+				82B24352238058B300B7D147 /* TextInfo.swift */,
+				824EDC64238036A600B8C878 /* ContentView.swift */,
+			);
+			path = OneCityView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824EDC5C238036A600B8C878 /* firstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824EDC71238036AB00B8C878 /* Build configuration list for PBXNativeTarget "firstApp" */;
+			buildPhases = (
+				824EDC59238036A600B8C878 /* Sources */,
+				824EDC5A238036A600B8C878 /* Frameworks */,
+				824EDC5B238036A600B8C878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firstApp;
+			productName = firstApp;
+			productReference = 824EDC5D238036A600B8C878 /* InstaCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824EDC55238036A600B8C878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Maciej Krysiak";
+				TargetAttributes = {
+					824EDC5C238036A600B8C878 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 824EDC58238036A600B8C878 /* Build configuration list for PBXProject "InstaCity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824EDC54238036A600B8C878;
+			productRefGroup = 824EDC5E238036A600B8C878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824EDC5C238036A600B8C878 /* firstApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824EDC5B238036A600B8C878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8284D73A2381978500AABEE7 /* LA.jpg in Resources */,
+				825DC78C2382C86D00FA14B6 /* seul.jpg in Resources */,
+				82D6EDDF23806B15004AA678 /* CityData.json in Resources */,
+				8284D7402381B8B200AABEE7 /* mexico.jpg in Resources */,
+				824EDC6D238036AB00B8C878 /* LaunchScreen.storyboard in Resources */,
+				82D6EDE723806B76004AA678 /* warsaw.jpg in Resources */,
+				823EEC1823808808005DBFA0 /* london.jpg in Resources */,
+				825DC78A2382C7FC00FA14B6 /* tokyo.jpg in Resources */,
+				82B20CF1238099FA00B021D4 /* beijing.jpg in Resources */,
+				8284D7422381B98500AABEE7 /* helsinki.jpg in Resources */,
+				824EDC6A238036AB00B8C878 /* Preview Assets.xcassets in Resources */,
+				8284D73C23819A2D00AABEE7 /* bangkok.jpg in Resources */,
+				82D6EDE523806B56004AA678 /* berlin.jpg in Resources */,
+				824EDC67238036AB00B8C878 /* Assets.xcassets in Resources */,
+				82D6EDEF23807927004AA678 /* paris.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824EDC59238036A600B8C878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828EF3BB2394439100A91D23 /* ProfileView.swift in Sources */,
+				824EDC7523803FD700B8C878 /* ImageView.swift in Sources */,
+				824EDC61238036A600B8C878 /* AppDelegate.swift in Sources */,
+				82D6EDE923806BC1004AA678 /* CityRow.swift in Sources */,
+				824EDC77238041CE00B8C878 /* MapView.swift in Sources */,
+				82D6EDED2380778B004AA678 /* CityList.swift in Sources */,
+				825DC7882382C3E700FA14B6 /* IMAGE.swift in Sources */,
+				828EF3BD2394443700A91D23 /* Profile.swift in Sources */,
+				82B20CF32380A10200B021D4 /* UserData.swift in Sources */,
+				8284D7462381E1BE00AABEE7 /* Home.swift in Sources */,
+				824EDC63238036A600B8C878 /* SceneDelegate.swift in Sources */,
+				82B24353238058B300B7D147 /* TextInfo.swift in Sources */,
+				8252EDC92381868F00BBB960 /* ContinentsRow.swift in Sources */,
+				824EDC65238036A600B8C878 /* ContentView.swift in Sources */,
+				82D6EDE123806B2E004AA678 /* City.swift in Sources */,
+				8252EDC72381848F00BBB960 /* ContinentsHome.swift in Sources */,
+				82D6EDE323806B38004AA678 /* Data.swift in Sources */,
+				828EF3B923940A3D00A91D23 /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		824EDC6B238036AB00B8C878 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824EDC6C238036AB00B8C878 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824EDC6F238036AB00B8C878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824EDC70238036AB00B8C878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824EDC72238036AB00B8C878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstApp/firstApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"firstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 65S6A56692;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InstaForCities;
+				PRODUCT_NAME = InstaCity;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824EDC73238036AB00B8C878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = firstApp/firstApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"firstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 65S6A56692;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InstaForCities;
+				PRODUCT_NAME = InstaCity;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824EDC58238036A600B8C878 /* Build configuration list for PBXProject "InstaCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824EDC6F238036AB00B8C878 /* Debug */,
+				824EDC70238036AB00B8C878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824EDC71238036AB00B8C878 /* Build configuration list for PBXNativeTarget "firstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824EDC72238036AB00B8C878 /* Debug */,
+				824EDC73238036AB00B8C878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824EDC55238036A600B8C878 /* Project object */;
+}
