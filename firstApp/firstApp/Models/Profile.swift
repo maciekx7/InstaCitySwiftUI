@@ -8,8 +8,8 @@
 
 import SwiftUI
 
-class Profile: ObservableObject{
-    @Published var name :String = UserDefaults.standard.string(forKey: "name")
+class Profile: Identifiable{
+   //Kiedyś będzie
 }
 
 
