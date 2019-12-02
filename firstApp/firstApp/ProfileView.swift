@@ -11,7 +11,7 @@ import SwiftUI
 struct ProfileView: View {
    // @ObservedObject var Profile = Profile()
     var body: some View {
-        Text("Cześć")
+        Text("Coś tu kiedyś będzie")
     }
 }
 
